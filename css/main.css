@@ -105,10 +105,6 @@ ul, ol {
 
 a {
     color: #e2e3ed;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1.125em;
-    text-transform: uppercase;
     text-decoration: none;
 }
 
@@ -129,11 +125,11 @@ p {
 }
 
 img {
-
+    width: 100%;
 }
 
 figure {
-
+    margin: 0;
 }
 
 address {
@@ -148,6 +144,16 @@ address {
 /* ------------ Base header and footer styles ------------- */
 header {
     padding: 15px 0;
+
+
+}
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 header,
@@ -180,6 +186,9 @@ header nav {
     align-items: center;
     flex-flow: row wrap;
     width: 60%;
+    font-weight: 700;
+    font-size: 1.125em;
+    text-transform: uppercase;
 }
 
 header nav ul {
@@ -227,6 +236,10 @@ footer .copyright {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url(../img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
 }
 
 .hero-area h1 {
@@ -285,6 +298,9 @@ input[type=button] {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url(../img/breakfast.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .features h2 {
